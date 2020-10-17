@@ -1,0 +1,39 @@
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.wrap_all_f{
+	min-height: 20px;
+    padding-left: 0;
+    font-size: 14px;
+    margin-bottom: 35px;
+    margin-top: 8px;
+}
+.img-thumbnail{
+	position: absolute;
+    width: 63px;
+    height: 49px;
+}
+.pagination{
+	margin-top: 36px;
+	font-size: 12px;
+}
+@media screen and (max-width: 575px) {
+	span{
+		padding: 68px;
+	}
+	#add_f{
+    position: absolute;
+    left: 83px;
+	}
+}
+@media screen and (min-width: 968px) {
+	.col-sm-4 {
+    padding-left: 0;
+}
+}
